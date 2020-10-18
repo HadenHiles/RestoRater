@@ -1,4 +1,4 @@
-package com.infrontofthenet.restorater
+package com.hadenhiles.restorater
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

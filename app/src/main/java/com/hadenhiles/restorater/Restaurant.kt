@@ -1,4 +1,4 @@
-package com.infrontofthenet.restorater
+package com.hadenhiles.restorater
 
 class Restaurant {
     // declare class properties
