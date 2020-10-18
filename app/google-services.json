@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "164380705959",
-    "firebase_url": "https://restorater-de45f.firebaseio.com",
-    "project_id": "restorater-de45f",
-    "storage_bucket": "restorater-de45f.appspot.com"
+    "project_number": "132328977437",
+    "firebase_url": "https://restorater-howtohaden.firebaseio.com",
+    "project_id": "restorater-howtohaden",
+    "storage_bucket": "restorater-howtohaden.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:164380705959:android:e32947c0fcb090e7bc4782",
+        "mobilesdk_app_id": "1:132328977437:android:4ca21da8d7c8e23cb102f4",
         "android_client_info": {
-          "package_name": "com.infrontofthenet.restorater"
+          "package_name": "com.hadenhiles.restorater"
         }
       },
       "oauth_client": [
         {
-          "client_id": "164380705959-8doftutbt8rl86q3fsvcnhkn7s1s8t7b.apps.googleusercontent.com",
+          "client_id": "132328977437-i5ra4hnmviu7e8l7h7ft8pg0br2pjvre.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDD8rwVmx8jume-j6-ogKwZ814HJeIGglE"
+          "current_key": "AIzaSyBX4CDhfoQrDji5zH1VkOAPJKLn461ZoAM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "164380705959-8doftutbt8rl86q3fsvcnhkn7s1s8t7b.apps.googleusercontent.com",
+              "client_id": "132328977437-i5ra4hnmviu7e8l7h7ft8pg0br2pjvre.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
