@@ -1,10 +1,12 @@
 package com.hadenhiles.restorater
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
 import com.google.firebase.firestore.FirebaseFirestore
+import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -12,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        saveButton.setOnClickListener {
+        saveFab.setOnClickListener {
             // validate inputs
             if ((!TextUtils.isEmpty(nameEditText.text)) && (ratingSpinner.selectedItemPosition > 0)) {
                 // capture inputs into an instance of our Restaurant class
@@ -29,6 +31,9 @@ class MainActivity : AppCompatActivity() {
                 nameEditText.setText("")
                 ratingSpinner.setSelection(0)
                 Toast.makeText(this, "Restaurant Added", Toast.LENGTH_LONG).show()
+
+                val intent = Intent(applicationContext, ListActivity::class.java)
+                startActivity(intent)
             }
             else {
                 Toast.makeText(this, "Incomplete", Toast.LENGTH_LONG).show()
